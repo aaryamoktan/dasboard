@@ -1,0 +1,178 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.NevbarContainer{
+    position:relative;
+    width:100%;
+    height:10vh;
+    .innerContainer
+    {
+        position:relative;
+        display:flex;
+        justify-content: space-between;
+        .innerleft
+        {
+            position:relative;
+            margin:20px;
+            font-size: 25px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .innerright
+        {
+            position:relative;
+            margin-right: 20px;
+            ul{
+                position:relative;
+                list-style: none;
+                display:flex;
+                margin:20px;
+                font-size: 20px;
+            }
+            li{
+                position:relative;
+                margin-left:20px;
+            }
+        }
+    }
+}
+
+.homeConatiner
+{
+    position:relative;
+    display:flex;
+    width:100%;
+    
+    .leftHome
+    {
+        position:relative;
+        width:15%;
+        height:auto;
+        .leftcontainer
+{
+    position:relative;
+    width:100%;
+    height:85vh;
+    .leftInner
+    {
+        position:relative;
+        margin-left:20px;
+        font-size: 20px;
+        top:30px;
+        ul{
+            list-style: none;
+        }
+        p{
+            position:relative;
+            left:18%;
+            top:-29px;
+        }
+    }
+}
+    }
+}
+.rightHome{
+    position:relative;
+    width:85%;
+    height:89vh;
+    background:rgb(249, 244, 244);
+    .homeBranch
+    {
+        position:relative;
+        width:95%;
+        height:90%;
+        margin-left:2.5%;
+        margin-top:2.5%; 
+        .homeBranchInner
+        {
+            position:relative;
+            display:flex;
+            justify-content: space-between;
+            .home-left
+            {
+                position:relative;
+                width: 70%;
+                height:85vh;
+                .homeleftcontainer
+                {
+                    position:relative;
+                    .homeleftupper
+                    {
+                        position:relative;
+                        display:flex;
+                        justify-content: space-between;
+                        .homeleft-left
+                        {
+                            position:relative;
+                            width:49%;
+                            height:15vh;
+                            background:linear-gradient(1800deg, rgb(67, 67, 227) 10%, rgb(85, 150, 203) 100%);
+                            border-radius: 4px;
+                        }
+                        .homeright-right
+                        {
+                            position:relative;
+                            width:49%;
+                            height:15vh;
+                            background:linear-gradient(160deg, rgb(215, 215, 249) 10%, rgb(198, 232, 198) 100%);
+                            border-radius: 4px;
+                        }
+                    }
+                    .homeleftdown
+                    {
+                        position:relative;
+                        margin-top:20px;
+                        width:100%;
+                        height:60vh;
+                        background:rgb(174, 173, 173);
+                        border-radius: 10px ;
+                    }
+                }
+                
+            }
+            .home-right
+            {
+                position:relative;
+                width:30%;
+                height:85vh; 
+                .homeright
+                {
+                    position:relative;
+                    width:100%;
+                    height:auto;
+                    left:3%;
+                    .homeright1
+                    {
+                        position:relative;
+                        width:100%;
+                        height:7vh;
+                        margin-top:2px;
+                        border-radius: 3px;
+                        background:linear-gradient(120deg, rgb(176, 176, 228) 10%, rgb(179, 231, 179) 100%);
+                    }
+                    .homeright2     
+                    {
+                        position:relative;
+                        width:100%;
+                        height:7vh;
+                        margin-top:5px;
+                        border-radius: 3px;
+                        background:white;
+                    }
+                    .homeright3
+                    {
+                        position:relative;
+                        width:100%;
+                        height:60vh;
+                        margin-top:20px;
+                        background:white;
+                        border-radius: 10px;
+
+                    }
+                    
+                }  
+            }
+        } 
+    }
+}
