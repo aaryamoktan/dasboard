@@ -8,10 +8,7 @@ const HomeBranch = () => {
         <div className='home-left'>
           <Homeleft />
         </div>
-        <div className='home-right'>
-          <Homeright />
-        </div>
-      </div>
+       </div>
     </div>
   )
 }

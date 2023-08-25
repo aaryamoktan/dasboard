@@ -5,6 +5,7 @@ import Anaylist from './Anaylist'
 import Product from './Product'
 import HomeBranch from './HomeBranch'
 import Left from './Left'
+import Homeright from '../Component/Home/Homeright'
 const Home = () => {
   const [data,setdata] =useState()
   
@@ -30,6 +31,7 @@ const Home = () => {
                 <Route path="/product" element={<Product data={data}/>}/>
                 <Route path="/analyst" element={<Anaylist data={data}/>}/>
             </Routes>
+            <Homeright/>
         </div>
     </div>
   )
