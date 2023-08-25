@@ -14,7 +14,7 @@ const Homeleft = () => {
     }
     fetchApi() 
   },[])
-  const number= 30;
+  const number= 46 ;
   return (
     <div className='homeleftcontainer'>{
   
@@ -25,6 +25,30 @@ const Homeleft = () => {
             <div className='homeright-right'><p>Income: ${number*100}</p> </div>
         </div>
         <div className='homeleftdown'>
+        <p>User List</p>
+        <table>
+  <tr>
+    <th>Id</th>
+    <th className="heading1">User-Name</th>
+    <th className="heading2">Site_admin</th>
+  </tr>
+  {
+    data && data.map((ele)=>
+    {
+      const {login,id,url} = ele;
+      return(
+        <>
+        <tr>
+    <td className='id'>{id}</td>
+    <td className='user'>{login}</td>
+    <td className='url'> {url}</td>
+  </tr>
+        </>
+      )
+    })
+  }
+  
+  </table>
         </div>
     </div>
   )

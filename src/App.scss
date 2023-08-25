@@ -127,7 +127,6 @@
                             p{
                                 position:relative;
                                 font-size: 25px;
-                                
                                 font-family: 'Courier New', Courier, monospace;
                                 top:40%;
                             }
@@ -139,8 +138,55 @@
                         margin-top:20px;
                         width:100%;
                         height:60vh;
-                        background:rgb(174, 173, 173);
+                        scroll-behavior: auto;
+                        background:rgb(208, 207, 207);
                         border-radius: 10px ;
+                        text-align: center;
+                        overflow-y: scroll;
+                       p{
+                        color:white;
+                        font-size: 25px;
+                        font-family: 'Courier New', Courier, monospace;
+                       }
+                       table{
+                        position:relative;
+                        top:2%;
+                        left:5%;
+                        margin-left:30px;
+                        th{
+                           
+                            margin-left:20px;
+                            font-size:20px;
+                        }
+                        .id{
+                            position:relative;
+                            color:green;
+                            width:5%;
+                           
+                        }
+                        .heading2{
+                            position:relative;
+                            left:35%;
+                            font-size:20px;
+                        }
+                        .heading1{
+                            position:relative;
+                            left:18%;
+                            font-size:20px;
+                        }
+                        .user{
+                            position:relative;
+                            width:20%;
+                            left:23%;
+                            text-align: justify;
+                        }
+                        .url{
+                            position:relative;
+                            width:60%;
+                            left:40%;
+                            text-align: justify;
+                        }
+                       }
                     }
                 }
                 
