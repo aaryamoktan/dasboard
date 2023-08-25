@@ -109,6 +109,13 @@
                             height:15vh;
                             background:linear-gradient(1800deg, rgb(67, 67, 227) 10%, rgb(85, 150, 203) 100%);
                             border-radius: 4px;
+                            p{
+                                position:relative;
+                                font-size: 25px;
+                                color:white;
+                                font-family: 'Courier New', Courier, monospace;
+                                top:40%;
+                            }
                         }
                         .homeright-right
                         {
@@ -117,6 +124,13 @@
                             height:15vh;
                             background:linear-gradient(160deg, rgb(215, 215, 249) 10%, rgb(198, 232, 198) 100%);
                             border-radius: 4px;
+                            p{
+                                position:relative;
+                                font-size: 25px;
+                                
+                                font-family: 'Courier New', Courier, monospace;
+                                top:40%;
+                            }
                         }
                     }
                     .homeleftdown

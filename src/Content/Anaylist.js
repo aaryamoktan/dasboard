@@ -1,8 +1,9 @@
 import React from 'react'
 
-const Anaylist = () => {
+const Anaylist = (data) => {
+  console.log(data)
   return (
-    <div>Anaylist</div>
+    <></>
   )
 }
 
