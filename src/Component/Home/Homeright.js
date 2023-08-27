@@ -4,7 +4,7 @@ const Homeright = () => {
     return (
         <div className='homeright'>
             <div className='homeright1'>
-
+dfmk
             </div>
             <div className='homeright2'>
 

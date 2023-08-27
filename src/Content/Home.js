@@ -24,14 +24,16 @@ const Home = () => {
         <div className='leftHome'>
             <Left/>
         </div>
-        <div className='rightHome'>
+        <div className='middleHome'>
             <Routes>
                 <Route path="/" element={<HomeBranch />}/>
                 <Route path="/setting" element={<Setting/>}/>
                 <Route path="/product" element={<Product data={data}/>}/>
                 <Route path="/analyst" element={<Anaylist data={data}/>}/>
             </Routes>
-            <Homeright/>
+        </div>
+        <div className='rightHome'>
+        <Homeright/>
         </div>
     </div>
   )

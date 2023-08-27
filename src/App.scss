@@ -43,12 +43,136 @@
     position:relative;
     display:flex;
     width:100%;
+    margin-top:10px;
+    background:rgb(200, 199, 199);
+    .middleHome{
+        position:relative;
+        width:59%;
+        margin:1%;
+        height:82vh;
+        background:white;
+        border-radius: 10px;;
+        overflow-y: auto;
+        .homeMiddlecontainer{
+            position:relative;
+            width:100%;
+            .homeMiddledown
+            {
+                position:relative;
+                width:98%;
+                margin-left:1%;
+                height:64.58vh;
+                border-radius: 10px;
+                background:rgb(247, 251, 247);
+                text-align: center;
+                font-size: 30px;
+                color:rgb(61, 60, 60);
+                font-family: 'Courier New', Courier, monospace;
+                table{
+                    position:relative;
+                    margin:2%;
+                }
+                .heading1
+                {
+                    position:relative;
+                    left: 60px;
+                }
+                .heading2
+                {
+                    position:relative;
+                    left: 120px;
+                }
+            }
+            .homeMiddleupper{
+                position:relative;
+                display:flex;
+                height:auto;
+                .homeMiddle-left{
+                    position:relative;
+                    width:48%;
+                    margin:1%;
+                    height:15vh;
+                    background:rgb(199, 240, 199);
+                    text-align: justify;
+                    border-radius: 10px;;
+                    p{
+                        position:relative;
+                        top:30%;
+                        margin-left:5%;
+                        font-size: 25px;;
+                    }
+                }
+                 .homeMiddle-right{
+                    position:relative;
+                    width:48%;
+                    margin:1%;
+                    height:15vh;
+                    background:rgb(199, 240, 199);
+                    text-align: justify;
+                    border-radius: 10px;;
+                    p{
+                        position:relative;
+                        top:30%;
+                        margin-left:5%;
+                        font-size: 25px;;
+                    }
+                }
+            }
+
+        }
+    }
+    .rightHome{
+        position:relative;
+        width:23%;
+        margin-top:1%;
+        height:82vh;
+        border-radius: 10px;
+        background:rgb(243, 243, 226);
+        .homeright{
+            position:relative;
+            width:100%;
+            border-radius: 10px;
+            height:auto;
+            text-align: center;
+            .homeright1{
+                position:relative;
+                width:90%;
+                margin-top:2%;
+                border-radius: 10px;
+                
+                left:5%;
+                height:15vh;
+                background:rgb(204, 234, 204);
+            }
+            .homeright2{
+                position:relative;
+                width:90%;
+                margin-top:2.5%;
+                border-radius: 10px;
+                left:5%;
+                height:15vh;
+                background:rgb(206, 222, 206);
+            }
+            .homeright3{
+                position:relative;
+                width:90%;
+               margin-top:2.5%;
+                border-radius: 10px;
+                left:5%;
+                height:48vh;
+                background:rgb(195, 208, 195);
+            }
+
+        }
+
+    }
     
     .leftHome
     {
         position:relative;
         width:15%;
         height:auto;
+        background:white;
         .leftcontainer
 {
     position:relative;
@@ -70,171 +194,5 @@
         }
     }
 }
-    }
-}
-.rightHome{
-    position:relative;
-    width:85%;
-    height:89vh;
-    background:rgb(249, 244, 244);
-    display:flex;
-    .home-right
-            {
-                position:relative;
-                width:30%;
-                height:85vh; 
-                .homeright
-                {
-                    position:relative;
-                    width:100%;
-                    height:auto;
-                    left:3%;
-                    .homeright1
-                    {
-                        position:relative;
-                        width:100%;
-                        height:7vh;
-                        margin-top:2px;
-                        border-radius: 3px;
-                        background:linear-gradient(120deg, rgb(176, 176, 228) 10%, rgb(179, 231, 179) 100%);
-                    }
-                    .homeright2     
-                    {
-                        position:relative;
-                        width:100%;
-                        height:7vh;
-                        margin-top:5px;
-                        border-radius: 3px;
-                        background:white;
-                    }
-                    .homeright3
-                    {
-                        position:relative;
-                        width:100%;
-                        height:60vh;
-                        margin-top:20px;
-                        background:white;
-                        border-radius: 10px;
-
-                    }
-                    
-                }  
-            }
-    .homeBranch
-    {
-        position:relative;
-        width:95%;
-        height:90%;
-        margin-left:2.5%;
-        margin-top:2.5%; 
-        .homeBranchInner
-        {
-            position:relative;
-            display:flex;
-            justify-content: space-between;
-            .home-left
-            {
-                position:relative;
-                width: 70%;
-                height:85vh;
-                .homeleftcontainer
-                {
-                    position:relative;
-                    .homeleftupper
-                    {
-                        position:relative;
-                        display:flex;
-                        justify-content: space-between;
-                        .homeleft-left
-                        {
-                            position:relative;
-                            width:49%;
-                            height:15vh;
-                            background:linear-gradient(1800deg, rgb(67, 67, 227) 10%, rgb(85, 150, 203) 100%);
-                            border-radius: 4px;
-                            p{
-                                position:relative;
-                                font-size: 25px;
-                                color:white;
-                                font-family: 'Courier New', Courier, monospace;
-                                top:40%;
-                            }
-                        }
-                        .homeright-right
-                        {
-                            position:relative;
-                            width:49%;
-                            height:15vh;
-                            background:linear-gradient(160deg, rgb(215, 215, 249) 10%, rgb(198, 232, 198) 100%);
-                            border-radius: 4px;
-                            p{
-                                position:relative;
-                                font-size: 25px;
-                                font-family: 'Courier New', Courier, monospace;
-                                top:40%;
-                            }
-                        }
-                    }
-                    .homeleftdown
-                    {
-                        position:relative;
-                        margin-top:20px;
-                        width:100%;
-                        height:60vh;
-                        scroll-behavior: auto;
-                        background:rgb(208, 207, 207);
-                        border-radius: 10px ;
-                        text-align: center;
-                        overflow-y: scroll;
-                       p{
-                        color:white;
-                        font-size: 25px;
-                        font-family: 'Courier New', Courier, monospace;
-                       }
-                       table{
-                        position:relative;
-                        top:2%;
-                        left:5%;
-                        margin-left:30px;
-                        th{
-                           
-                            margin-left:20px;
-                            font-size:20px;
-                        }
-                        .id{
-                            position:relative;
-                            color:green;
-                            width:5%;
-                           
-                        }
-                        .heading2{
-                            position:relative;
-                            left:35%;
-                            font-size:20px;
-                        }
-                        .heading1{
-                            position:relative;
-                            left:18%;
-                            font-size:20px;
-                        }
-                        .user{
-                            position:relative;
-                            width:20%;
-                            left:23%;
-                            text-align: justify;
-                        }
-                        .url{
-                            position:relative;
-                            width:60%;
-                            left:40%;
-                            text-align: justify;
-                        }
-                       }
-                    }
-                }
-                
-            }
-            
-        } 
     }
 }

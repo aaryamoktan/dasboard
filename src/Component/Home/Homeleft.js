@@ -16,19 +16,16 @@ const Homeleft = () => {
   },[])
   const number= 46 ;
   return (
-    <div className='homeleftcontainer'>{
-  
-    }
-    
-        <div className='homeleftupper'>
-            <div className='homeleft-left'><p> No of Users:<b>{number}</b></p></div>
-            <div className='homeright-right'><p>Income: ${number*100}</p> </div>
+    <div className='homeMiddlecontainer'>
+        <div className='homeMiddleupper'>
+            <div className='homeMiddle-left'><p> No of Users:<b>{number}</b></p></div>
+            <div className='homeMiddle-right'><p>Income: ${number*100}</p> </div>
         </div>
-        <div className='homeleftdown'>
+        <div className='homeMiddledown'>
         <p>User List</p>
         <table>
   <tr>
-    <th>Id</th>
+    <th className='ids'>Id</th>
     <th className="heading1">User-Name</th>
     <th className="heading2">Site_admin</th>
   </tr>
