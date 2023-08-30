@@ -8,17 +8,16 @@ const Homeleft = () => {
     {
       const serponse = await fetch("https://api.github.com/users");
       const response = await  serponse.json();
-      setdata(response);
-      
-      
+      setdata(response);     
     }
     fetchApi() 
   },[])
-  const number= 46 ;
+  
+  const number=data && data.legth;
   return (
     <div className='homeMiddlecontainer'>
         <div className='homeMiddleupper'>
-            <div className='homeMiddle-left'><p> No of Users:<b>{number}</b></p></div>
+            <div className='homeMiddle-left'><p> No of Users: <b>{number}</b></p></div>
             <div className='homeMiddle-right'><p>Income: ${number*100}</p> </div>
         </div>
         <div className='homeMiddledown'>
