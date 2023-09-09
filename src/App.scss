@@ -73,11 +73,20 @@
                 table{
                     position:relative;
                     margin:2%;
+                    th{
+                        position:relative;
+                        font-size: 30px;
+                        text-transform: capitalize;
+                        color:rgb(173, 170, 170);
+                    }
+                   
                 }
+                
+
                 .heading1
                 {
                     position:relative;
-                    left: 60px;
+                    left: 30px;
                 }
                 .heading2
                 {

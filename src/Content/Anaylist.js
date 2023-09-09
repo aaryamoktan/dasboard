@@ -1,9 +1,9 @@
 import React from 'react'
 
 const Anaylist = (data) => {
-  console.log(data)
+  
   return (
-    <></>
+    <>ANALYTICS</>
   )
 }
 

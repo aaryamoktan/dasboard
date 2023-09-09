@@ -1,36 +1,19 @@
 import React, { useState } from 'react'
 import { Chart as chartjs,Bar } from 'react-chartjs-2'
-
 const Product = () => {
   const [data,setdata] =useState("")
   const [final,setfinal] = useState([])
-
-const data1 = {
-  labels :  ["January", "February", "March", "April", "May", "June"],
-  datasets: [
-    {
-      label: "My First dataset",
-      backgroundColor: "rgb(255, 99, 132)",
-      borderColor: "rgb(255, 99, 132)",
-      data: [0, 10, 5, 2, 20, 30, 45],
-    },
-  ],
-};
- 
   const submit = (e)=>
   {
     e.preventDefault();
-    
        setfinal((old)=>
     {
       if (data.length > 0) {
         return [...old, data]
     }
-    if (data.length == 0) {
+    if (data.length === 0) {
         return [...old]
     }
-      
-
     })
     setdata("")
   }
@@ -45,16 +28,23 @@ const data1 = {
       })
     })
   }
-  console.log(final.length)
+  
   return (
     <><div className="addProduct">
-    <Bar data1={data}/>
+    <div className='totalProduct'  style={{display:"flex",justifyContent:"space-around"} }>
+    <div className='user' style={{width:"50%",height:"7vh"}}>
+    Total No. Of Users: {final.length}
+    </div>
+    <div className='revenue'>
+      Total Revnue: ${final.length *250}
+    </div>  
+    </div>
       <input type="text" value={data} onChange={(e)=>
       {
         setdata(e.target.value)
-      }}/>
-
-      <button type="submit" onClick={submit}>submit</button>
+      }}/> 
+      <button type="submit" style={{marginLeft:"20px"}} onClick={submit}>submit</button>
+     <br/>
       {final && final.map((e,index)=>
       {
         const id = index;
@@ -70,9 +60,7 @@ const data1 = {
           </>
         )
       })}
-      {final.length}
-      <br></br>
-      ${final.length *250}
+     
     </div></>
   )
 }
