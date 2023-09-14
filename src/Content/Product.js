@@ -28,7 +28,6 @@ const Product = () => {
       })
     })
   }
-  
   return (
     <><div className="addProduct">
     <div className='totalProduct'  style={{display:"flex",justifyContent:"space-around"} }>
@@ -55,14 +54,11 @@ const Product = () => {
               deleted(id)
             }}>DElete</button>
 
-            <br/>
-            
+            <br/> 
           </>
         )
       })}
-     
     </div></>
   )
 }
-
 export default Product
